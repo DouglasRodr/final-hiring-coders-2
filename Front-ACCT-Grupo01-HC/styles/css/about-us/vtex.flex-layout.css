@@ -1,0 +1,25 @@
+.flexRowContent--intro-about-us,
+.flexRowContent--header-about-us {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flexRow--intro-about-us {
+    padding: 8em 2em 4em 2em;
+}
+
+.flexRow--header-about-us {
+    background: url("assets/title/about-us.jpg");
+    background-size: cover;
+	background-position: center center;
+}
+
+.flexRowContent--intro-details {
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    display: flex;
+}
+
+.flexRow--intro-image {
+    margin: auto 0;
+}

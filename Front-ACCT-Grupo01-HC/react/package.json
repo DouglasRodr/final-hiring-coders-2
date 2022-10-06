@@ -1,0 +1,37 @@
+{
+  "name": "hc01-react",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "vtex-test-tools test"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.8.0",
+    "@material-ui/core": "^4.12.3",
+    "@types/styled-components": "^5.1.13",
+    "apollo-client": "^2.6.8",
+    "aws-amplify": "^4.2.5",
+    "axios": "^0.21.1",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "react": "^16.12.0",
+    "react-apollo": "^3.1.3",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^16.12.0",
+    "react-hook-form": "^7.14.0",
+    "react-intl": "^3.12.0",
+    "styled-components": "^5.3.1",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@apollo/react-testing": "^3.1.3",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.8",
+    "@types/react": "^16.9.31",
+    "@types/react-dom": "^17.0.9",
+    "@vtex/test-tools": "^3.3.2",
+    "@vtex/tsconfig": "^0.4.4",
+    "apollo-cache-inmemory": "^1.6.5",
+    "graphql": "^14.6.0",
+    "style-loader": "^3.2.1",
+    "typescript": "3.9.7"
+  }
+}

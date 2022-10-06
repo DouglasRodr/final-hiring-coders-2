@@ -1,0 +1,184 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  //Layout Desktop
+  "header-layout.desktop": {
+    "children": [
+      "progress-wraper",
+      "sticky-layout#header-desktop"
+    ]
+  },
+  "sticky-layout#header-desktop": {
+    "props": {
+      "blockClass": "header-sticky"
+    },
+    "children": [
+      "flex-layout.row#header-desktop-container"
+    ]
+  },
+  "flex-layout.row#header-desktop-container": {
+    "props": {
+      "blockClass": "header-desktop-container"
+    },
+    "children": [
+      "flex-layout.col#header-desktop-container"
+    ]
+  },
+  "flex-layout.col#header-desktop-container": {
+    "props": {
+      "verticalAlign": "center"
+    },
+    "children": [
+      "flex-layout.row#header-desktop"
+    ]
+  },
+  //Header Desktop
+  "flex-layout.row#header-desktop": {
+    "props": {
+      "blockClass": "header-container",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer"
+    ]
+  },
+  //Logo Desktop
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/brand/logo-acct-black.svg",
+      "width": "150"
+    }
+  },
+  //Spacer
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-sobre-nos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  //Layout Mobile
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#header-mobile"
+    ]
+  },
+  "sticky-layout#header-mobile": {
+    "props": {
+      "blockClass": "header-sticky"
+    },
+    "children": [
+      "flex-layout.row#header-mobile"
+    ]
+  },
+  "flex-layout.row#header-mobile": {
+    "children": [
+      "flex-layout.row#logo-mobile",
+      "flex-layout.col#spacer",
+      "flex-layout.row#drawer-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "header-mobile-container",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#drawer-mobile": {
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "right",
+      "marginTop": "6"
+    },
+    "children": [
+      "drawer#mobile"
+    ]
+  },
+  "drawer#mobile": {
+    "children": [
+      "menu#drawer-mobile"
+    ]
+  },
+  "menu#drawer-mobile": {
+    "children": [
+      "menu-item#category-inicio",
+      "menu-item#category-sobre-nos",
+      "vtex.menu@2.x:menu#category-servicos",
+      "menu-item#category-cursos",
+      "menu-item#category-contato",
+      "menu-item#category-leads"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "isFullWidth": true,
+      "backdropMode": "none"
+    }
+  },
+  "flex-layout.row#logo-mobile": {
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "left",
+      "marginTop": "6"
+    },
+    "children": [
+      "logo#mobile"
+    ]
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "verticalAlign": "middle",
+      "href": "/",
+      "url": "assets/brand/logo-acct-black.svg",
+      "width": "150"
+    }
+  }
+}

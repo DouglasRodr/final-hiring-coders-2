@@ -1,0 +1,10 @@
+{
+	"store.custom#contact": {
+		"blocks": [
+			"progress-wraper",
+			"flex-layout.row#header-contact",
+			"flex-layout.row#block-form-address",
+			"flex-layout.row#block-global-map"
+		]
+	}
+}

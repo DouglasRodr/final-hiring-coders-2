@@ -1,0 +1,25 @@
+{
+    "store.custom#about-us": {
+        "path": "/sobre-nos"
+    }, "store.custom#courses": {
+        "path": "/nossos-cursos"
+    },
+    "store.custom#quality-assurance": {
+        "path": "/servicos/quality-assurance"
+    },
+    "store.custom#data-growth": {
+        "path": "/servicos/data-growth"
+    },
+    "store.custom#experience-design": {
+        "path": "/servicos/experience-design"
+    },
+    "store.custom#tecnology": {
+        "path": "/servicos/tecnologia"
+    },
+    "store.custom#contact": {
+        "path": "/contato"
+    },
+    "store.custom#leads": {
+        "path": "/leads-cadastrados"
+    }
+}

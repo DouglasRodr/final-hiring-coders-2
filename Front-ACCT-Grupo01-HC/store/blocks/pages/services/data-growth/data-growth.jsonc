@@ -1,0 +1,10 @@
+{
+    "store.custom#data-growth": {
+        "blocks": [
+            "flex-layout.row#header-data-growth",
+            "flex-layout.row#block-data-analytics",
+            "flex-layout.row#block-objetivos",
+            "contact-form"
+        ]
+    }
+}

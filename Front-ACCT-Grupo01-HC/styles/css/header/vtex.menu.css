@@ -1,0 +1,21 @@
+.styledLinkContainer {	
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+}
+
+.styledLink {
+	font-family: "OpenSans";
+	font-size: 14px;
+	font-weight: 500;
+	color: #000;
+}
+
+.styledLink:hover {
+	color: #fcc200;
+}
+
+.menuContainerNav {
+	margin-right: 150px;
+}

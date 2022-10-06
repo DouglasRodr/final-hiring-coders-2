@@ -1,0 +1,12 @@
+{
+      "store.custom#about-us": {
+            "blocks": [
+                  "progress-wraper",
+                  "flex-layout.row#header-about-us",
+                  "flex-layout.row#intro-about-us",
+                  "flex-layout.row#why-acct",
+                  "flex-layout.row#trusted-by",
+                  "flex-layout.row#team"
+            ]
+      }
+}
